@@ -5,7 +5,7 @@ try
     using MyGenie
 catch _
     using Pkg
-    Pkg.develop(url = "http://127.0.0.1:8000", name = "MyGenie")
+    Pkg.develop(url = "https://github.com/lnan22/Webapp", name = "MyGenie")
     using MyGenie
 end
 
